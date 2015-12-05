@@ -2,6 +2,7 @@ package com.example.demo;
 
 import com.example.demo.ForeService.MyBinder;
 
+import android.R.anim;
 import android.app.Activity;
 import android.content.ComponentName;
 import android.content.Intent;
