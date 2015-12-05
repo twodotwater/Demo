@@ -26,6 +26,13 @@
 
         <service android:name="com.example.demo.ForeService" >
         </service>
+        <service
+            android:name="com.example.demo.AidlService"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="com.example.demo.MyAIDLService" />
+            </intent-filter>
+        </service>
     </application>
 
 </manifest>
